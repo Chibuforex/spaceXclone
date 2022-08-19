@@ -382,6 +382,37 @@ footer ul li a:hover {
   color: #aaa;
 }
 
+/* Inner Pages */
+/* Falcon 9 Page Styling */
+.bg-falcon-9 {
+  background-image: url(../img/falcon-9.webp);
+}
+
+/* Utility Class */
+.section-animate {
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.section-inner-center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-inner-center h3 {
+  font-size: 100px;
+  margin-bottom: 15px;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.section-inner-center p {
+  font-size: 20px;
+  animation: fadeInUp 0.5s ease-in-out 0.2s both;
+}
+
 /* Animations */
 @keyframes fadeInUp {
   0% {
@@ -392,6 +423,17 @@ footer ul li a:hover {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Inner Pages Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 
