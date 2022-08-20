@@ -425,7 +425,7 @@ footer ul li a:hover {
 }
 
 .stats div span {
-  font-size: 160px;
+  font-size: 110px;
 }
 
 .stats div h4 {
@@ -494,6 +494,16 @@ footer ul li a:hover {
   /* Show mobile only menu */
   .mobile-only {
     display: block;
+  }
+
+  /* Stats */
+  .stats {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .stats div {
+    margin: 50px 0;
   }
 
 }
