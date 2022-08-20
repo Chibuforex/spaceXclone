@@ -2,6 +2,7 @@ const btn = document.getElementById('menu-btn');
 const overlay = document.getElementById('overlay');
 const menu = document.getElementById('mobile-menu');
 const counters = document.querySelectorAll('.counter');
+const nav = document.getElementById('header');
 
 btn.addEventListener('click', navToggle);
 
@@ -41,5 +42,21 @@ function countUp() {
 
 countUp();
 
+// Hiding and Displaying Nav bar while scrolling
+let lastScrollTop = 0;
 
+document.addEventListener("scroll", function(){ // or 
+   let st = window.pageYOffset || document.documentElement.scrollTop;
+   if (st > lastScrollTop){
+      nav.classList.add('main-header-toggle');
+      btn.classList.add('main-header-toggle');
+   } else {
+      // upscroll code
+      if(nav.classList.contains('main-header-toggle')) {
+        nav.classList.remove('main-header-toggle');
+        btn.classList.remove('main-header-toggle');
+      };
+   }
+   lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+});
 
