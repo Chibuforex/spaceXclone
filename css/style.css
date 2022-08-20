@@ -400,6 +400,7 @@ footer ul li a:hover {
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   text-align: center;
+  width: 80%;
 }
 
 .section-inner-center h3 {
@@ -485,6 +486,28 @@ footer ul li a:hover {
 
 /* Media Queries */
 @media(max-width: 960px) {
+  /* Background Images */
+  .section-a {
+    background-image: url(../img/section-a-mobile.webp);
+  }
+
+  .section-b {
+    background-image: url(../img/section-b-mobile.webp);
+  }
+
+  .section-c {
+    background-image: url(../img/section-c-mobile.webp);
+  }
+
+  .section-d {
+    background-image: url(../img/section-d-mobile.webp);
+  }
+
+  /* Falcon Heavy Mobile Page Styling */
+  .bg-falcon-heavy {
+    background-image: url(../img/falcon-heavy-mobile.webp);
+  }
+
   /* Hide Desktop Menu */
   .desktop-main-menu {
     display: none;
