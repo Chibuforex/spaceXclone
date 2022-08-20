@@ -413,6 +413,16 @@ footer ul li a:hover {
   animation: fadeInUp 0.5s ease-in-out 0.2s both;
 }
 
+/* Falcon Heavy Page Styling */
+.bg-falcon-heavy {
+  background-image: url(../img/falcon-heavy.webp);
+}
+
+/* Dragon Page Styling */
+.bg-dragon {
+  background-image: url(../img/dragon.webp);
+}
+
 /* Stats */
 .stats {
   max-width: 960px;
