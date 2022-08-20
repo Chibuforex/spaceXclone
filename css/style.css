@@ -506,6 +506,11 @@ footer ul li a:hover {
     margin: 50px 0;
   }
 
+  /* Section Inner Text */
+  .section-inner-center h3 {
+    font-size: 75px;
+  }
+
 }
 
 @media(max-width: 600px) {
@@ -541,5 +546,13 @@ footer ul li a:hover {
     transform: translate(-50%, -50%);
   }
 
+  .section-inner-center {
+    width: 80%;
+  }
+
+  /* Section Inner Text */
+  .section-inner-center h3 {
+    font-size: 50px;
+  }
 
 }
