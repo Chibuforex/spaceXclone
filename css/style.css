@@ -166,6 +166,11 @@ section {
   background-image: url(../img/section-a.webp);
 }
 
+/* Section 2 */
+.section-2 {
+  background-image: url(../img/section-2.webp);
+}
+
 /* Section B */
 .section-b {
   background-image: url(../img/section-b.webp);
@@ -498,6 +503,10 @@ footer ul li a:hover {
   /* Background Images */
   .section-a {
     background-image: url(../img/section-a-mobile.webp);
+  }
+
+  .section-2 {
+    background-image: url(../img/section-2-mobile.webp);
   }
 
   .section-b {
